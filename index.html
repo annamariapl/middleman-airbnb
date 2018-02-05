@@ -7,7 +7,7 @@
   content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Use the title from a page's frontmatter if it has one -->
   <title>Le Wagon - Middleman</title>
-  <link href="stylesheets/application-cd5deff1.css" rel="stylesheet" />
+  <link href="stylesheets/application-945b2a1f.css" rel="stylesheet" />
   <script src="javascripts/application-93de88c9.js"></script>
   <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
 </head>
@@ -55,8 +55,50 @@
     <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
   <div class="banner-content">
     <h1>Le Wagon Berlin</h1>
-    <p>Learn to code with us in Berlin</p>
-    <a class="btn btn-primary btn-lg">Start now</a>
+    <p>Learn to code with us in ... </p>
+       <div class="container">
+    <div class="row">
+     <!--    <div class="col-xs-4 col-xs-offset-4"> -->
+       <form action="#">
+
+        <div class="col-xs-3">
+          <div class="form-group">
+           <!--      <label for="your-name">Name</label> -->
+           <input type="text" class="form-control" id="your-name" placeholder="Where?">
+         </div>
+       </div>
+
+       <div class="col-xs-3">
+        <div class="form-group">
+          <!--       <label for="your-last-name">Last Name</label> -->
+          <input type="date" class="form-control" id="your-last-name" placeholder="When?">
+        </div>
+      </div>
+
+
+      <div class="col-xs-5">
+        <div class="form-group">
+          <!--         <label for="refferer">How many people you want register for Le Wagon Bootcamp?</label> -->
+          <!--  <input type="refferer" class="form-control" id="refferer" placeholder="refferer"> -->
+          <select id="refferer" class="form-control">
+            <option value> Just myself </option>
+            <option value> Myself + 1 Friend </option>
+            <option value> Myself + 2 Friends  </option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-xs-1">
+        <div class="form-group">
+          <a class="btn btn-primary btn-lg">Start now</a>
+        </div>
+      </div>
+
+    </form>
+    <!--  </div> -->
+  </div>
+</div>
+
   </div>
 </div>   <!-- inject layouts/_navbar.html.erb -->
   
